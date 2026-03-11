@@ -52,17 +52,15 @@ Second split: From the 80% training set, 20% is held out as validation
 Standardized using StandardScaler to normalize values
 
 ### 7. Model
-XGBoost (XGBClassifier)
-Gradient-boosted tree model suitable for tabular sliding-window features
-Class weighting or oversampling not applied in this version
+XGBoost and Balanced Random Forest
 
-### Evaluation
+### 8. Evaluation
 Metrics used:
 ROC-AUC
 PR-AUC (more meaningful for rare events)
 Precision, Recall, F1 at multiple thresholds
 
-### Visualizations include:
+### 9. Visualizations include:
 ECG signal with abnormal beats highlighted
 Predicted probability vs. true incidents
 Threshold sweep curves
