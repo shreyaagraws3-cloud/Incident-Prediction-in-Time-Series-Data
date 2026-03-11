@@ -1,4 +1,4 @@
-## ECG Incident Prediction Using Sliding Windows & XGBoost
+## Incident Prediction in Time Series Data
 This project implements a **machine‑learning pipeline** to predict whether an abnormal heartbeat (incident) will occur in the near future based on ECG signals.
 The task is formulated as a sliding‑window time‑series classification problem.
 The dataset is derived from the **MIT‑BIH Arrhythmia Database (records 100, 101, 102)**.
